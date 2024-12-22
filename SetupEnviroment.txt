@@ -1,0 +1,8 @@
+1. Create a c++ project using visual studio
+2. Go to Solution properties/ Configuration Properties/ General/C++ Language Standar => make sure its c++17 or higher 
+3. Download vcpkg from https://github.com/microsoft/vcpkg.git
+4. cd vcpkg
+5. .\bootstrap-vcpkg.bat
+6. In System variables, select Path > Edit > New, and paste the path to the vcpkg folder.
+7. Run => .\vcpkg integrate install
+8. Run => .\vcpkg install jansson
